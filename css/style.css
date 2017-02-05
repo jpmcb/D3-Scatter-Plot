@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Sahitya");
+body {
+  background: #342944;
+  color: white;
+  font-family: 'Sahitya', serif;
+}
+
+h1 {
+  margin-top: -3px;
+  font-weight: lighter;
+  letter-spacing: -3px;
+  text-align: center;
+}
+
+h4 {
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+  margin-top: -15px;
+}
+
+.root {
+  width: 100%;
+}
+
+#root-svg {
+  width: 900px;
+  height: 500px;
+  background: #d3d3d3;
+  border-radius: 15px 15px 15px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px;
+}
+
+#xaxis, #yaxis {
+  stroke: black;
+}
+
+#yaxis-text, #xaxis-text {
+  font-weight: bolder;
+}
+
+.axis-desc {
+  font-size: 14px;
+}
+
+.hover {
+  font-family: 'Sahitya', serif;
+  background: #605077;
+  position: absolute;
+  top: 300px;
+  left: 690px;
+  width: 280px;
+  padding-top: -5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid 2px;
+  border-radius: 5px 5px 5px;
+  box-shadow: 5px 5px 5px;
+}
+.hover h3 {
+  letter-spacing: 1px;
+}
+
+a {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  width: 10%;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  color: white;
+}
