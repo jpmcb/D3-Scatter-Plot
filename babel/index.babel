@@ -84,9 +84,11 @@ function runData() { //d3 code to be run after ajax is done
       .attr('class', 'data')
       .attr('cx', function(d){ return (2400 - d) * 4.5})
       .attr('cy', function(d,i){ return (myData[i]['Place'] * 12) + 15; })
-      .attr('r','4')
+      .attr('r','5')
       .attr('fill', function(d,i){ if(myData[i]['Doping'] === '') {return 'black';}else{return 'purple';}})
-      .on('mouseover', function(d,i){ return $('.hover' + i).css('display', 'inline-block')})
+      .on('mouseover', function(d,i){ return $('.hover' + i).css('display', 'inline-block')
+                                                            .css('top', event.pageY + 15)
+                                                            .css('left', event.pageX + 15)})
       .on('mouseout', function(d,i){ return $('.hover' + i).css('display', 'none')});
 }
 
