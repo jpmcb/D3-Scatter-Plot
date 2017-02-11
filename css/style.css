@@ -3,24 +3,77 @@ body {
   background: #342944;
   color: white;
   font-family: 'Sahitya', serif;
+  height: 1500px;
 }
 
-h1 {
-  margin-top: -3px;
-  font-weight: lighter;
-  letter-spacing: -3px;
+h1.after-fade {
+  margin-top: 80px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  display: none;
+}
+
+h1.before-fade {
+  margin-top: 150px;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 5px;
   text-align: center;
 }
 
-h4 {
-  font-weight: lighter;
+button {
+  background: #350d47;
+  font-family: 'Sahitya', serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px 5px 5px;
+}
+
+#intro {
   text-align: center;
-  margin: 0;
-  margin-top: -15px;
+  padding: 65px;
+}
+
+#load-button {
+  display: none;
+}
+
+#definition {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: lighter;
+  display: none;
+}
+
+.fadeIn-data {
+  display: none;
 }
 
 .root {
   width: 100%;
+}
+
+.first-data {
+  display: none;
+}
+
+.last-data {
+  display: none;
+}
+
+#doping-svg {
+  width: 980px;
+  height: 250px;
+  background: #d3d3d3;
+  border-radius: 20px 20px 20px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px;
 }
 
 #root-svg {
@@ -29,7 +82,18 @@ h4 {
   background: #d3d3d3;
   border-radius: 15px 15px 15px;
   display: block;
-  margin: 0 auto;
+  margin: 150px auto;
+  box-shadow: 1px 1px 5px;
+}
+
+#nation-svg {
+  height: 450px;
+  width: 1200px;
+  background: #d3d3d3;
+  border-radius: 15px 15px 15px;
+  display: block;
+  margin: 150px auto;
+  margin-bottom: 25px;
   box-shadow: 1px 1px 5px;
 }
 
@@ -45,19 +109,70 @@ h4 {
   font-size: 14px;
 }
 
-.hover {
+.fadeIn-rect {
+  display: none;
+}
+
+#rect-desc {
+  fill: #250535;
+}
+
+#rect-fadeOut, #rect-fade {
+  fill: #250535;
+}
+
+#rect-text1 {
+  fill: white;
+}
+
+#rect-text2 {
+  fill: white;
+  font-size: 12px;
+}
+
+#rect-text3 {
+  fill: white;
+  font-size: 25px;
+}
+
+#rect-text4 {
+  fill: white;
+  font-size: 30px;
+}
+
+#rect-text5 {
+  fill: white;
+  font-size: 20px;
+}
+
+#rect-hover {
+  fill: white;
+}
+
+#rect-80 {
+  fill: white;
+  font-size: 115px;
+}
+
+.data, .fadeIn-3 {
+  display: none;
+}
+
+.hover, .nation-hover {
   font-family: 'Sahitya', serif;
-  background: #c391c6;
+  background: #3c184f;
+  color: white;
+  text-align: center;
   position: absolute;
   width: 280px;
   padding-top: -5px;
   padding-left: 15px;
   padding-right: 15px;
   border: solid 2px;
-  border-radius: 5px 5px 5px;
-  box-shadow: 5px 5px 5px;
+  border-radius: 15px 15px 15px;
+  box-shadow: 2px 2px 2px black;
 }
-.hover h3 {
+.hover h3, .nation-hover h3 {
   letter-spacing: 1px;
 }
 
@@ -67,6 +182,6 @@ a {
   width: 10%;
   text-align: center;
   display: block;
-  margin: 20px auto;
+  margin: 25px auto;
   color: white;
 }

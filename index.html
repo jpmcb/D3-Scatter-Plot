@@ -3,16 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>Doping in Pro Bicycle Racing - D3 scatter plot</title>
-  <link rel="stylesheet" href="css/style.css">
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
 
 <body>
-	<h1>Doping In Professional Bicycle Racing</h1>
-	<h4>hover to see details</h4>
-	<div class='root'></div>
-	<a href='' target='_blank'>By jpmcb</a>
-  	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js'></script>
+  <h1 class='before-fade'>Doping In Professional Bicycle Racing</h1>
+
+	<div id='intro'>
+		<p>In professional bicycle racing, the Tour De France is king. But are the pros really as good as we think they are?</p>
+    <button id='load-button'>Let's Find out</button>
+	</div>
+
+  <h4 id='definition'><strong>Doping (verb):</strong> To administer drugs to an athlete in order to enhance sporting performance.</h4>
+<div class='first-data'>
+  <div class='root2'></div>
+</div>
+
+<div class='fadeIn-data'>  
+	<div class='root'></div> 
+</div>
+
+<div class='last-data'>
+  <div class='root3'></div>
+  <a href='https://github.com/jpmcb' target='_blank'>By jpmcb</a>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js'></script>
+
     <script src="js/index.js"></script>
+
 </body>
 </html>
