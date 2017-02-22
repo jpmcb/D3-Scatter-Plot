@@ -176,6 +176,16 @@ button {
   letter-spacing: 1px;
 }
 
+#exposition {
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 50%;
+  background: black;
+  text-align: center;
+  padding: 100px;
+  border-radius: 10px 10px 10px;
+}
+
 a {
   font-weight: bolder;
   letter-spacing: 1px;
